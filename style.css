@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.main{
+    display: flex;
+    background-color: rgb(0, 128, 175);
+    width:80vh;
+    height:50vh;
+    margin-top: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+}
+.scoreboard{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.team1{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Knicks{
+    width:30vh;
+    height:20vh;
+    margin-top: 5vh;
+    background-color:rgb(199, 226, 255); 
+}
+.team2{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.Bulls{
+    width:30vh;
+    height:20vh;
+    margin-top: 5vh;
+    background-color:rgb(199, 226, 255);
+
+}
+.score
+{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+.plusone, .plustwo, .plusthree , .plusone1, .plustwo1, .plusthree1{
+    border-radius: 2px;
+    margin-top: 2vh;
+    padding: 1vh;
+    border:1px solid black;
+    border-radius: 2px;
+}
+.plusone:hover, .plustwo:hover, .plusthree:hover , .plusone1:hover, .plustwo1:hover, .plusthree1:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.points1,.points2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-size: 17vh;
+}
+.newgame{
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 2vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    border: 2px solid white;
+    background: none;
+}
+.newgame:hover{
+    cursor: pointer;
+    border: 3px solid white;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
